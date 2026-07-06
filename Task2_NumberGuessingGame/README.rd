@@ -4,96 +4,95 @@
 
 The **Number Guessing Game** is a Java Swing GUI application developed as part of the **Oasis Infobyte Internship (OIBSIP)**.
 
-The application generates a random number based on the selected difficulty level, and the player has to guess the correct number within a limited number of attempts. The game provides hints after every guess and displays the final result.
+In this game, the system generates a random number based on the selected difficulty level, and the player must guess it within a limited number of attempts. After each guess, hints are provided to help reach the correct number.
 
 ---
 
 ## ✨ Features
 
-- 🎲 Random number generation
-- 🖥️ Java Swing Graphical User Interface (GUI)
-- 📊 Attempts counter
-- 🎯 Higher / Lower hints
-- 🏆 Score tracking
-- 🔄 Play Again option
-- 📈 Multiple rounds support
-- 😊 User-friendly interface
+- 🎲 Random number generation  
+- 🖥️ Java Swing GUI application  
+- 📊 Attempts counter system  
+- 🎯 Higher / Lower hint system  
+- 🏆 Score tracking  
+- 🔄 Play Again option  
+- 📈 Multiple difficulty levels  
+- 😊 Simple and interactive UI  
 
-### Difficulty Levels
+---
 
-- 🟢 Easy (1–50, 10 Attempts)
-- 🟡 Medium (1–100, 7 Attempts)
-- 🔴 Hard (1–200, 5 Attempts)
+## 🎚️ Difficulty Levels
+
+- 🟢 Easy: 1–50 (10 Attempts)  
+- 🟡 Medium: 1–100 (7 Attempts)  
+- 🔴 Hard: 1–200 (5 Attempts)  
 
 ---
 
 ## 🛠️ Technologies Used
 
-- Java
-- Java Swing
-- Object-Oriented Programming (OOP)
-- Java Random Class
+- Java  
+- Java Swing  
+- Object-Oriented Programming (OOP)  
+- Random Class  
 
 ---
 
 ## 📂 Project Structure
 
-```
-Task2_NumberGuessingGame
+Task2_NumberGuessingGame/
 │
-├── src
+├── src/
 │   ├── Main.java
 │   ├── GameFrame.java
 │   └── GameLogic.java
 │
 └── README.md
-```
 
 ---
 
 ## 🚀 How to Run
 
-1. Open the project in VS Code or Eclipse.
-2. Compile all Java files.
-3. Run `Main.java`.
-4. Select a difficulty level.
-5. Enter your guess.
-6. Keep guessing until you find the correct number or run out of attempts.
-7. Click **Play Again** to start a new round.
+1. Open the project in VS Code or Eclipse  
+2. Compile all Java files  
+3. Run `Main.java`  
+4. Select difficulty level  
+5. Start guessing the number  
+6. Follow hints until correct answer  
+7. Click "Play Again" to restart  
 
 ---
 
 ## 🎮 Game Rules
 
-- The system randomly generates a number.
-- Enter your guess in the text field.
-- The application displays:
-  - **Too High!**
-  - **Too Low!**
-  - **Correct!**
-- The player wins by guessing the correct number within the allowed attempts.
-- If all attempts are used, the correct number is revealed.
+- System generates a random number  
+- Player enters guesses  
+- System provides feedback:
+  - Too High  
+  - Too Low  
+  - Correct  
+- Win by guessing within allowed attempts  
+- If attempts finish, correct number is revealed  
 
 ---
 
 ## 📸 Screenshots
 
-- Difficulty Selection
-- Guess Input Screen
-- Correct Guess Message
-- Game Over Message
-- Play Again Feature
+- Difficulty Selection Screen  
+- Guess Input Screen  
+- Win Screen  
+- Game Over Screen  
+- Play Again Feature  
 
 ---
 
-## 📚 Internship
+## 📚 Internship Details
 
-**Oasis Infobyte Internship (OIBSIP)**
-
-**Task 2 – Number Guessing Game**
+Oasis Infobyte Internship (OIBSIP)  
+Task 2 – Number Guessing Game  
 
 ---
 
 ## 👨‍💻 Author
 
-**Asish Madivada**
+Asish Madivada
